@@ -1,0 +1,20 @@
+{
+  "name": "intel-igpu-bug",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "host" : "vite --host",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@itk-wasm/dicom": "^7.6.0",
+    "@kitware/vtk.js": "^32.14.0"
+  },
+  "devDependencies": {
+    "vite": "6.3.3",
+    "vite-plugin-static-copy": "2.3.1"
+  }
+}
