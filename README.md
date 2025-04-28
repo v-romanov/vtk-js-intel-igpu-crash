@@ -7,3 +7,4 @@ npm install
 npm run build
 npm run dev
 ```
+Open console for more info
